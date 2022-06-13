@@ -28,7 +28,7 @@ public class PlacementHandler : MonoBehaviour
     {
         MoveSelected();
 
-        if (Input.GetKey(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
             gridSnapping = !gridSnapping;
         }
@@ -38,11 +38,24 @@ public class PlacementHandler : MonoBehaviour
     {
         if (currentlyHeld != null)
         {
+            RotateSelected();
+
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Physics.Raycast(ray, out hit, 100f, floorLayer);
-            currentlyHeld.SetPosition(hit.point, gridSnapping);
-            Debug.Log(hit.point);
+
+            if (hit.transform != null)
+            {
+                currentlyHeld.SetPosition(hit.point, gridSnapping);
+            }
+        }
+    }
+
+    private void RotateSelected()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            currentlyHeld.Rotate(Vector3.up, 90);
         }
     }
 

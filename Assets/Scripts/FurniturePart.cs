@@ -49,6 +49,11 @@ namespace Furniture
             transform.position = position;
         }
 
+        public void Rotate(Vector3 direction, float rotationSpeed)
+        {
+            transform.Rotate(direction, rotationSpeed);
+        }
+
         private void OnMouseDown()
         {
             PlacementHandler.singleton.SelectItem(this);
