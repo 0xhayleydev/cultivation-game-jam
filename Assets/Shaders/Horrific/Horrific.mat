@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1510814488104479635
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 4
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -20,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SoulsMat
-  m_Shader: {fileID: -6465566751694194690, guid: 89533bb32b08ce94c9bca0815f670b07,
+  m_Name: Horrific
+  m_Shader: {fileID: -6465566751694194690, guid: d4173b2e9f7ad9a4e8938fa89cdf5c34,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -73,12 +60,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_ac268d859b46460ea290194015d3fbcf_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 62d3f65ed0f20ca45a96e1a055fd0324, type: 3}
+    - _SampleTexture2D_d380842e6fdd4720bd329565f10e1bd4_Texture_1:
+        m_Texture: {fileID: 2800000, guid: ab4bd4537beb4934aba379de7c233922, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_e34e5945395c414a870a307176811fd9_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 603638aa80f2f8c4da8d308e7463fbf2, type: 3}
+    - _SampleTexture2D_e901474a976e46cb8d8c556692d37745_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 28cfc6120f9f5bd49b4b7d0f6d76c181, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -98,8 +85,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_9459ca8ab9dd441cb61178c2859518c8: 0.025
-    - Vector1_a558a3da45eb43139636abee92b0af2d: 0.025
+    - Vector1_0b1a0cca005a47519efb3e0ea9b3cc47: 0.1
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -127,10 +113,22 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_7213d17209f247d1b579dd7da9c989e8: {r: 0, g: 1, b: 0.5742574, a: 1}
-    - SoulsSeed: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_2da782e7d26c417cb77b66e8dd76b860: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
+--- !u!114 &3779793246336818631
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
