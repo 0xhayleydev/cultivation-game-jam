@@ -55,7 +55,7 @@ public class PlacementHandler : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(1))
         {
-            currentlyHeld.Rotate(Vector3.up, 90);
+            currentlyHeld.Rotate();
         }
     }
 

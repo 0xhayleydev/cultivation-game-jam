@@ -49,9 +49,9 @@ namespace Furniture
             transform.position = position;
         }
 
-        public void Rotate(Vector3 direction, float rotationSpeed)
+        public void Rotate()
         {
-            transform.Rotate(direction, rotationSpeed);
+            transform.localEulerAngles += Vector3.up * 90;
         }
 
         private void OnMouseDown()
