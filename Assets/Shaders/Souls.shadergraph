@@ -249,9 +249,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1311.0001220703125,
-            "y": 248.00001525878907,
-            "width": 139.0,
+            "x": -1331.33349609375,
+            "y": 246.6666717529297,
+            "width": 104.6666259765625,
             "height": 34.0
         }
     },
@@ -778,11 +778,11 @@
     },
     "m_Name": "Seed",
     "m_DefaultReferenceName": "Vector2_9127c3fc40924875a0b738f27242843f",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "SoulsSeed",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
+    "overrideHLSLDeclaration": true,
+    "hlslDeclarationOverride": 2,
     "m_Hidden": false,
     "m_Value": {
         "x": 0.0,

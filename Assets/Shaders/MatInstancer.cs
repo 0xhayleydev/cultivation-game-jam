@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MatInstancer : MonoBehaviour
 {
-    public Vector2 offset;
+    public Vector4 offset;
     public Material mat;
     // Start is called before the first frame update
     void Start()
@@ -14,7 +14,11 @@ public class MatInstancer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        mat.SetVector("_Seed", new Vector4(offset.x, offset.y));
-        Debug.Log(mat.GetVector("_Seed"));
+        UpdateMaterial(mat);
+    }
+
+    void UpdateMaterial(Material material)
+    {
+        material.SetVector("_Seed", offset);
     }
 }

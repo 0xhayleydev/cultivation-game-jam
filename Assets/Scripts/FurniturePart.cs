@@ -36,7 +36,6 @@ namespace Furniture
 
         public void SetPosition(Vector3 position, bool gridSnapping = false)
         {
-            Debug.Log("Running");
             if (gridSnapping)
             {
                 position.x = Mathf.RoundToInt(position.x);
