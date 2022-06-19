@@ -6,7 +6,7 @@ using Furniture;
 public class PlacementHandler : MonoBehaviour
 {
     public static PlacementHandler singleton;
-    public FurniturePart currentlyHeld;
+    public FurniturePartController currentlyHeld;
     public LayerMask floorLayer;
     bool gridSnapping;
 
@@ -59,7 +59,7 @@ public class PlacementHandler : MonoBehaviour
         }
     }
 
-    public void SelectItem(FurniturePart selected)
+    public void SelectItem(FurniturePartController selected)
     {
         if (currentlyHeld == null)
         {

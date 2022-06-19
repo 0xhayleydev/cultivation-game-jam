@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d1cc69fb2087e74b9c011f0a5565ad8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  furniture:
+    objectiveType: 1
+    activeObjective: 1
+    furnitureToCreate: 0
+  numberOfObjectives: 0
+  partCounts:
+    objectiveType: 0
+    activeObjective: 0
+    minNoOfParts: -1
+    maxNoOfParts: -1
+  parts: []
+  sizes: []
+  styles: []
+  timeLimit:
+    objectiveType: 0
+    activeObjective: 0
+    timeLimit: 0

@@ -4,30 +4,9 @@ using UnityEngine;
 
 namespace Furniture
 {
-    public enum PartType
+    public class FurniturePartController : MonoBehaviour
     {
-        Leg,
-        Surface
-    }
-
-    public enum PartSize
-    {
-        Small,
-        Medium,
-        Large
-    }
-
-    public enum PartMaterialType
-    {
-        Wood,
-        Metal
-    }
-
-    public class FurniturePart : MonoBehaviour
-    {
-        public PartType type;
-        public PartSize size;
-        public PartMaterialType materialStyle;
+        public FurniturePart part;
 
         public virtual void PlaceInScene()
         {
