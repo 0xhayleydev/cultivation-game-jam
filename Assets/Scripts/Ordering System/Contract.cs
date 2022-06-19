@@ -54,8 +54,15 @@ namespace Furniture.Ordering
 
         private void OnValidate()
         {
+            if (objectives != null)
+            {
+                numberOfObjectives = objectives.Count - 1;
+            }
+            else
+            {
+                numberOfObjectives = 0;
+            }
             furniture.activeObjective = true;
-            numberOfObjectives = objectives.Count - 1;
         }
     }
 }
